@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="popup.css">
+    <script src="web3.min.js"></script>
+</head>
+<body>
+
+<div id="error"></div>
+<div id="success"></div>
+
+<div>
+    <input id="search" placeholder="Movie title"/>
+    <button data-action="search">Search</button>
+</div>
+<div id="searchResults"></div>
+
+<hr>
+<div id="canAdd">
+    <input id="title" placeholder="Full movie title with year"/>
+    <input id="time" type="text" placeholder="Time in format 1:23:45"/>
+    <button data-action="add">Add</button>
+    <div class="helpLinks">
+        <a href="https://chainlist.org" target="_blank">add avalanche to wallet</a><br>
+        <a href="https://moralis.io/what-is-a-web3-wallet-web3-wallets-explained/" target="_blank">what is wallet?</a><br>
+        <a href="https://www.coingecko.com/en/coins/avalanche#markets" target="_blank">how to get avax?</a><br>
+    </div>
+</div>
+<div id="linkAdd">
+    Add new movie
+    <a href="https://melnikaite.infura-ipfs.io/ipfs/QmSNTqDxKXTqdvRJ5z8K4rC2wB9W3rFVjd6X7AWtf99YGA/popup.html" target="_blank">link1</a>
+    <a href="https://gateway.pinata.cloud/ipfs/QmSNTqDxKXTqdvRJ5z8K4rC2wB9W3rFVjd6X7AWtf99YGA/popup.html" target="_blank">link2</a>
+    <a href="https://ipfs.eth.aragon.network/ipfs/QmSNTqDxKXTqdvRJ5z8K4rC2wB9W3rFVjd6X7AWtf99YGA/popup.html" target="_blank">link3</a>
+    <a href="https://gateway.ipfs.io/ipfs/QmSNTqDxKXTqdvRJ5z8K4rC2wB9W3rFVjd6X7AWtf99YGA/popup.html" target="_blank">link4</a>
+    <a href="https://ipfs.io/ipfs/QmSNTqDxKXTqdvRJ5z8K4rC2wB9W3rFVjd6X7AWtf99YGA/popup.html" target="_blank">link5</a>
+    <a href="https://cloudflare-ipfs.com/ipfs/QmSNTqDxKXTqdvRJ5z8K4rC2wB9W3rFVjd6X7AWtf99YGA/popup.html" target="_blank">link6</a>
+</div>
+
+<hr>
+<div>
+    rpc endpoint <input id="rpc"/>
+    <button data-action="rpc">save</button>
+</div>
+<div>
+    contract <input id="contract"/>
+    <button data-action="contract">save</button>
+</div>
+
+<script src="popup.js"></script>
+
+</body>
+</html>

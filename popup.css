@@ -1,0 +1,23 @@
+body {
+    white-space: nowrap;
+}
+
+div {
+    margin: 10px 0;
+}
+
+.searchResult button {
+    margin-left: 10px;
+}
+
+#error {
+    color: red;
+}
+
+#success {
+    color: green;
+}
+
+.helpLinks {
+    font-size: small;
+}
